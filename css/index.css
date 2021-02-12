@@ -2,18 +2,14 @@ html {
   scroll-behavior: smooth;
   font-size: 16px;
 }
+
+font-family: 'Roboto', sans-serif;
 /* Text */
-h1, h2, h3 , h4, h5, h6 {
-  /*font-family: 'Anton', sans-serif;*/
-  font-family: 'Merriweather', serif;
-}
-p {
-  font-family: 'Roboto', sans-serif;
-}
+/*
 .cover-h1{
   font-family:'Merriweather', serif;
   margin-top: 10px;
-}
+}*/
 
 .row {
   margin:10px 0px 10px 0px;
@@ -23,17 +19,43 @@ body {
   margin: 0;
 }
 
+
+.hero {
+  padding: 50px 50px 0px 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+.hero2 {
+  color: white;
+}
+
+
+.sectionHeading2 {
+  text-align: center;
+  font-weight: 700;
+}
+
+:target:before {
+  content:"";
+  display:block;
+  height:80px; /* fixed header height*/
+  margin:-80px 0 0; /* negative fixed header height */
+  }
+
+
+
+
 /* Navigation bar */
 
 /* General */
 .customNav {
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
   /*background: url("../images/transparency.png");
   background-color: transparent !important;
   background-size: cover;*/
   /*background-color: rgb(43, 38, 38);*/
-  background-image: linear-gradient(170deg, rgb(0, 0, 0), rgb(10, 126, 242));
+  background-image: linear-gradient(170deg, rgb(241, 100, 18), rgb(128, 146, 163), rgb(41, 46, 51));
   z-index: 10;
 }
 .navbar-nav {
@@ -89,7 +111,7 @@ footer {
 
 /* Jumbotron  */
 .jumbotron {
-  background-image: url(../images/background_dark.jpg);
+  background-image: url(../images/Hero2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   /*background-image: linear-gradient(170deg, rgb(0, 0, 0), rgb(10, 126, 242));*/
@@ -97,6 +119,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 /* Jumbotron copy */
@@ -114,35 +138,36 @@ footer {
 }
 
 .btn-custom2 {
-    background-color: #0a7ef2 !important;
+    background-color: #0d7ebf !important;
     color: white;
   }
 
 .btn-custom3 {
-  border:0;
-  color:white;
+  border:none;
+  color:#11a0f2;
   font-size: 120px;
 }
 
 
 
 .btn-custom {
-  background-color: /*#c95c03 #069917*/ #29CC29!important;
+  background-color: /*#c95c03 #069917*/ rgb(241, 100, 18);
   color: white;
+  border:none;
 }
 a.btn-custom3:hover {
-  color: #29CC29;
+  color: #f16412;
 }
-.fa-arrow-down:hover {
-  color: #29CC29;
-}
+/*.fa-angle-down:hover {
+  color: #d47800;
+}*/
 
 /* Cards */
 .content {
   padding: 50px;
 }
 .sectionHeading {
-  font-family: 'Merriweather', serif;
+
   text-align: center;
   font-weight: 900;
 }
@@ -152,41 +177,6 @@ a.btn-custom3:hover {
   font-weight: 900;
   margin-top: 100px;
 }
-/* creating weird margin shift, leave out for now
-.showsNear  {
-  padding: 0px 0px 30px 0px;
-}
-
-.showsNear2 {
-  padding: 0px 0px 30px 0px;
-}
-
-.showsNear3 {
-  padding: 30px 0px 30px 0px;
-}
-
-.showsNear4 {
-  padding: 30px 0px 30px 0px;
-}*/
-
-.subHeader {
-  padding: 20px 0px 20px 0px;
-}
-
-.subHeader1 {
-  padding: 0px 0px 20px 0px;
-}
-
-.phaseHeader {
-  padding: 50px 0px 50px 0px;
-  margin-bottom: 50px;
-  background-color: #e6e6e6;
-}
-
-
-
-
-
 
 
 
@@ -196,32 +186,12 @@ a.btn-custom3:hover {
 }
 
 .card-title_new {
-  font-family:'Merriweather', serif;
+
   font-weight: 900;
 }
 
-.cardFooter {
-  background-color: white !important;
-  margin-bottom: 20px;
-}
 
 
-
-/* Content */
-.sideAccent {
-  background: #007bff;
-  width: 15px;
-}
-.imageContainer img {
-  width: 100%;
-}
-.imageContainer {
-  /*padding: 50px;*/
-}
-.valueProp {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
 
 /* Footer */
 .emailContain {
@@ -249,21 +219,9 @@ form {
 }
 
 
-.fade {
-  opacity: 0;
-}
 
-.fade1 {
-  opacity: 0;
-}
-.fade2 {
-  opacity: 0;
-}
-.fade3 {
-  opacity: 0;
-}
 .footer1 {
-  background-image: linear-gradient(350deg, rgb(0, 0, 0), rgb(10, 126, 242));
+  background-image: linear-gradient(350deg, rgb(241, 100, 18), rgb(128, 146, 163), rgb(41, 46, 51));
   color: #e6e6e6;
 
 }
@@ -302,63 +260,3 @@ ul.no-indentFlex {
 }
 
 
-.skillsShadow {
-  box-shadow: 12px 12px 2px 1px rgba(10, 126, 242, .5);
-}
-
-/* Jumbotron  */
-.jumbotronCS {
-background-image: linear-gradient(170deg, rgb(0, 0, 0), rgb(10, 126, 242));
-  height: calc(100vh - 20px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Jumbotron copy */
-.jumboCopyCS {
-  width: 70%;
-  min-width: 350px;
-  max-width: 700px;
-  color: white;
-  text-align: center;
-}
-
-.headerCS {
-  padding-top: 150px;
-  justify-content: center;
-  text-align: center;
-}
-
-
-/*Case Study Styles*/
-
-p.caseStudy {
-  padding: 0;
-  margin:0;
-}
-
-
-
-/*Event Listener CSS*/
-.hovercraft {
-  font-weight:900;
-  }
-
-  .hovercraftImg {
-
-    }
-
-
-    /*AOS Scroll Animation Customization*/
-/* <div
-    data-aos="fade-up"
-    data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-    data-aos-once="false"
-    data-aos-anchor-placement="top-center"
-  >
-  </div>*/
