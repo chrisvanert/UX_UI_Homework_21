@@ -26,16 +26,16 @@
   <body>
 
     <!-- Navigation bar -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light customNav">
+    <nav class="navbar navbar-dark sticky-top navbar-expand-lg navbar-light bg-light customNav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">WattsUp</a>
+        <a class="navbar-brand" href="index.html">WattsUp</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" href="index.html">Get Started</a>
-            <a class="nav-link" href="practice.html">Practice and Improving</a>
+            <a class="nav-link"  style="padding-right: 20px;" href="index.html">Get Started</a>
+            <a class="nav-link"  style="padding-right: 20px;" href="practice.html">Practice and Improving</a>
             <a class="nav-link" href="related.html" tabindex="-1">Related Activities</a>
           </div>
         </div>
@@ -45,20 +45,13 @@
 
     <!-- Jumbotron -->
 
-    <div class="bg-light p-5 rounded-lg jumbotron">
-      <!--<div class="row">
-        <!--<div class="col-lg-2 col-md-12"></div>
-        <div class="col-lg-8 col-md-12">-->
-          <div class="hero">
-      <h1 class="display-2" style="font-weight: 900; font-size: 4rem; text-align: center; color:whitesmoke">Getting Started in Bike Racing</h1>
-      <!--<p class="lead" style="text-align: center;">Mountain Bike, Gravel, Cyclocross</p>-->
-      <hr class="my-4">
-      <p class="display-6" style="text-align: center;">The definitive guide to losing all your time and money.</p>
-      <p style="text-align: center;"><a class="btn btn-lg btn-custom3" href="#anchor1"><i class="fas fa-angle-down"></i></a></p>
-      <!--<p style="text-align: center;"><a class="btn btn-primary btn-lg btn-custom" href="#" role="button">Learn more</a></p>-->
+    <div class="container-fluid">
+      <div class="row mt-5">
+        <div class="col-lg-2 col-md-12"></div>
+          <div class="col-lg-8 col-md-12">
+           <img src="images/GravelHero.jpeg" class="img-fluid">
           </div>
-    <!--<div class="col-lg-2 col-md-12"></div>-->
-    <!--</div>-->
+        <div class="col-lg-2 col-md-12"></div>  
     </div>
     <!-- End jumbotron -->
 
@@ -66,7 +59,7 @@
       <div class="row my-4">
       <div class="col-lg-2 col-md-12"></div>
         <div class="col-lg-8 col-md-12">
-          <div id="anchor1"><h1 class="display-2" style="font-weight: 400; font-size: 3rem; text-align: center;">So you wanna race bikes...</h1></div>
+          <div id="anchor1"><h1 class="display-2" style="font-weight: 400; font-size: 3rem; text-align: left;">Related Activities</h1></div>
           <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="col-lg-2 col-md-12"></div>
@@ -78,50 +71,83 @@
     <!-- Cards -->
 
     <div class="container-fluid">
-      <div><h1 class="sectionHeading2" style="color: #bf4f0d">Pick Your Poison</h1></div>
-      <div class="row showsNear" >
-        <!-- Card 1 -->
-        <div  data-aos="zoom-in" class="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div class="card shadow">
-            <img src="images/MTBCard.jpg" class="card-img-top" alt="Border Route Trail">
-            <div class="card-body" style="background-color:#f0f4f7; margin-top: 10px">
-              <h3 class="card-title_new">Mountain</h3>
-              <p class="card-text">What goes up must come down.</p>
-              <a href="projects_brt.html" class="btn btn-custom2">Learn More</a>
+      <div><h1 class="sectionHeading2" style="color: #bf4f0d">Other Stuff</h1></div>
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-12"></div>
+          <!-- Card 1 -->
+          <div data-aos="zoom-in" class="cardContainer col-lg-2 col-md-2 col-sm-12">
+            <div class="card shadow">
+              <img src="images/MTBCard.jpg" class="card-img-top" alt="Mountain">
+              <div class="card-body" style="margin-top: 10px">
+                <h3 class="card-title_new">Mountain</h3>
+                <p class="card-text">What goes up must come down.</p>
+                <a href="projects_brt.html" class="btn btn-custom2">Learn More</a>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- End card 1 -->
+          <!-- End card 1 -->
 
-        <!-- Card 2 -->
-        <div  data-aos="zoom-in" class="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div class="card shadow">
-            <img src="images/GravelCard1.jpg" class="card-img-top" alt="Department of Labor">
-            <div class="card-body" style="background-color:#f0f4f7; margin-top: 10px">
-              <h3 class="card-title_new">Gravel</h3>
-              <p class="card-text">Dirt roads, dead ends, and dust.</p>
-              <a href="#" class="btn btn-custom2">Learn More</a>
+          <!-- Card 2 -->
+          <div  data-aos="zoom-in" class="cardContainer col-lg-2 col-md-2 col-sm-12">
+            <div class="card shadow">
+              <img src="images/GravelCard1.jpg" class="card-img-top" alt="Gravel">
+              <div class="card-body" style="margin-top: 10px">
+                <h3 class="card-title_new">Gravel</h3>
+                <p class="card-text">Dirt roads, dead ends, and dust.</p>
+                <a href="#" class="btn btn-custom2">Learn More</a>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- End card 2 -->
+          <!-- End card 2 -->
 
-        <!-- Card 3 -->
-        <div  data-aos="zoom-in" class="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div class="card shadow">
-            <img src="images/CXCard.jpg" class="card-img-top" alt="RecycleAid">
-            <div class="card-body" style="background-color:#f0f4f7; margin-top: 10px">
-              <h3 class="card-title_new">Cyclocross</h3>
-              <p class="card-text">The toughest hour in cycling.</p>
-              <a href="#" class="btn btn-custom2">Learn More</a>
+          <!-- Card 3 -->
+          <div  data-aos="zoom-in" class="cardContainer col-lg-2 col-md-2 col-sm-12">
+            <div class="card shadow">
+              <img src="images/CXCard.jpg" class="card-img-top" alt="Cyclocross">
+              <div class="card-body" style="margin-top: 10px">
+                <h3 class="card-title_new">Cyclocross</h3>
+                <p class="card-text">The toughest hour in cycling.</p>
+                <a href="#" class="btn btn-custom2">Learn More</a>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- End card 3 -->
+          <!-- End card 3 -->
+          <!-- Card 4 -->
+          <div  data-aos="zoom-in" class="cardContainer col-lg-2 col-md-2 col-sm-12">
+            <div class="card shadow">
+              <img src="images/CXCard.jpg" class="card-img-top" alt="Mountain">
+              <div class="card-body" style="margin-top: 10px">
+                <h3 class="card-title_new">Cyclocross</h3>
+                 <p class="card-text">The toughest hour in cycling.</p>
+                 <a href="#" class="btn btn-custom2">Learn More</a>
+               </div>
+            </div>
+          </div>
+          <!-- End card 4 -->
+        <div class="col-lg-2 col-md-2 col-sm-12"></div>
 
       </div>
     </div>
+
     <!-- End cards -->
+    <div class="container-fluid mt-4">
+      <div class="row py-5" style="color:white;background-color: #0d171d; padding: 50px">
+          <div class="col-lg-2 col-md-2 col-sm-12"></div>
+            <div class="col-lg-4 col-md-4 col-sm-12"><h4 style="color:white">More Info</h4>
+              <p>Check out these links for more information on activities related to bike racing. Or don't. </p>
+            </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action">A link item</a>
+                  <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+                  <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+                  <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+                  <a href="#" class="list-group-item list-group-item-action">A fifth link item</a>
+                </div>
+              <div class="col-lg-2 col-md-2 col-sm-12"></div>
+      </div>
+    </div>
+
 
        
     <!-- Footer -->
@@ -129,8 +155,8 @@
                 <div class="footer1">
                   <div class="col d-flex justify-content-center mt-4">
                     <ul class="navFlex">
-                        <li><a href="index.html">Get Started</a></li>
-                        <li><a href="practice.html">Practice and Improving</a></li>
+                        <li><a  style="padding-right: 20px;" href="index.html">Get Started</a></li>
+                        <li><a  style="padding-right: 20px;" href="practice.html">Practice and Improving</a></li>
                         <li><a href="related.html">Related Activities</a></li>
                       </ul>
                   </div>
