@@ -304,3 +304,12 @@ ul.no-indentFlex {
   background-color: #1B458F;
 }
 
+
+ul.events {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+li.events {
+  border-bottom: 1px solid white;
+}
