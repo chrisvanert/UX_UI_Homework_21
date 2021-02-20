@@ -42,6 +42,10 @@ img.colImg {
   margin-bottom: 15px;
 }
 
+p.lg22 {
+  font-size:22px;
+  line-height: 1.5;
+}
 
 
 
@@ -211,6 +215,8 @@ a.btn-custom3:hover {
 
 
 
+
+
 .cardContainer {
   text-align: left;
 }
@@ -296,6 +302,8 @@ ul.no-indentFlex {
 
 }
 
+
+
 /*.list-group-item:hover {
 
 }*/
@@ -311,5 +319,6 @@ ul.events {
   padding:0;
 }
 li.events {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #dadada;
+  line-height: 2;
 }
